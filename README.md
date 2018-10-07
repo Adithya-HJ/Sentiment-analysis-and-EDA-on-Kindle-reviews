@@ -12,13 +12,13 @@ We used LSTM's in our model you can change the model to your liking.
 To run run this project
 first download the dataset and place it in `raw_data` folder
 
-First run data_preprocess.py
+First run `data_preprocess.py`
 
         python data_preprocess.py
 
 This basically does some preprocessing and saves the tokenizer and the dataset into pickle files  to make the training time faster.
 
-to train the network use rnn_trainer.py
+to train the network use `rnn_trainer.py`
 
 
         python rnn_trainer.py epochs
