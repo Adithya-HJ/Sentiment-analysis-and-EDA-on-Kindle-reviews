@@ -10,7 +10,7 @@ http://jmcauley.ucsd.edu/data/amazon
 We used LSTM's in our model you can change the model to your liking.
 
 To run run this project
-
+first download the dataset and place it in `raw_data` folder
 First run data_preprocess.py
 
         python data_preprocess.py
